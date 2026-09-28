@@ -141,3 +141,20 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+*storybook.log
+storybook-static
+
+# Compiled design system stylesheet (regenerated on each sync)
+ds.css
+
+# design-sync transient state (verification working state + generated output)
+.design-sync/sb-reference/
+.design-sync/learnings/
+.design-sync/.cache/
+.design-sync/node_modules
+.ds-sync/
+ds-bundle/
+
+# Emitted type declarations (regenerated on each sync)
+dist/

@@ -1,0 +1,15 @@
+{
+  "pkg": "my-design-system",
+  "entry": "src/index.ts",
+  "globalName": "MyDesignSystem",
+  "storybookConfigDir": ".storybook",
+  "buildCmd": "npx @tailwindcss/cli -i ./src/index.css -o ./ds.css && npx tsc src/index.ts --ignoreConfig --declaration --emitDeclarationOnly --outDir dist --jsx react-jsx --module esnext --moduleResolution bundler --target es2020 --strict --skipLibCheck",
+  "cssEntry": "ds.css",
+  "readmeHeader": ".design-sync/conventions.md",
+  "projectId": "120d0117-282b-4b03-83f9-a4d13026d30b",
+  "shape": "storybook",
+  "storybookStatic": ".design-sync/sb-reference",
+  "extraFonts": [
+    "./node_modules/@fontsource-variable/geist/index.css"
+  ]
+}
